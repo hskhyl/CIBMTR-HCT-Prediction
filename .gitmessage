@@ -1,0 +1,27 @@
+# Git 커밋 메시지의 템플릿을 정의하는 파일로써 이걸 사용하면
+# 커밋 메시지를 작성할 때 일관된 형식을 유지할 수 있음
+# 터미널에서 다음 명령어를 실행하여 Giut이 커밋 메시지 템플릿으로
+# .gitmessage 파일을 사용할 수 있도록 설정
+# git config commit.template .gitmessage
+# 이후 git commit을 하게 되면 기본 텍스트 편집기가 열리면서
+# .gitmessage 파일의 내용이 자동으로 로드됨.
+# 이후에 주석처리된 부분들에 대해서 수정하고자 하는 바에 따라
+# 수정하고 주석을 해제한 후에 편집기를 닫으면 커밋이 완료됨.
+
+# Title: Summary, imperative, start upper case, don't end with a period
+# No more than 50 chars. #### 50 chars is here: #
+
+# Remember blank line between title and body.
+
+# Body: Explain *what* and *why* (not *how*). Include task ID (Jira issue).
+# Wrap at 72 chars. ################################## which is here: #
+
+#   feat    : 기능 (새로운 기능)
+#   fix      : 버그 (버그 수정)
+#   dep     : 디펜던시 수정 관련 (requirements)
+#   ci      : ci,cd 관련
+#   refactor: 리팩토링
+#   style   : 스타일 (코드 형식, 세미콜론 추가: 비즈니스 로직에 변경 없음)
+#   docs    : 문서 (문서 추가, 수정, 삭제)
+#   test    : 테스트 (테스트 코드 추가, 수정, 삭제: 비즈니스 로직에 변경 없음)
+#   chore   : 기타 변경사항 (빌드 스크립트 수정 등)
