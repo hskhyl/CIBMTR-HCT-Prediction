@@ -1,3 +1,9 @@
+---
+
+본 레포지토리는 Kaggle 제출 코드를 바탕으로 Python 프로젝트 형태로 재구성하였습니다. 원본 코드는 [여기](https://www.kaggle.com/code/hongseonggyun/xgbregressor-with-kaplanmeierfitter?scriptVersionId=223729865)에서 확인하실 수 있습니다.
+
+---
+
 # 1. Intro
 1. **대회 취지**</br>
  `CIBMTR - Equity in post-HCT Survival Predictions` 대회는 조혈모세포(HCT)를 모든 환자가 배경에 상관없이 공평하게 이식받을 수 있도록, 환자의 생존확률을 더 정확히 예측하는 것을 목표로 함. </br>
