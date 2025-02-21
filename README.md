@@ -304,6 +304,7 @@
 
 # 3. How to use (conda 기준)
 - `conda create -n inference python==3.11`
+- `conda activate inference`
 - `git clone https://github.com/hskhyl/CIBMTR-HCT-Prediction.git`
 - `make setup`
 - `python3 main.py`
