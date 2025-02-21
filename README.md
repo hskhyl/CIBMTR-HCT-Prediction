@@ -26,6 +26,7 @@
     그리고 `C-index` 라는 평가지표를 사용하는 바, 점수 그 자체가 아니라 점수를 통한 target들의 `순서` 가 중요합니다.</br>
     또한, 위에 기술한 바 예측 모델이 환자들의 `순서`를 매김에 있어서 인종간에 성능의 차이가 적을수록 좋습니다.</br>
       
+---
 
 # 2. Feature 설명
 1. **dri_score**:
@@ -298,3 +299,11 @@
 59. **efs_time**:
     - **설명(Description)**: 이벤트 없는 생존 시간 (개월) (Time to event-free survival, months)
     - **유형(Type)**: 수치형 (Numerical)
+
+---
+
+# 3. How to use (conda 기준)
+- `conda create -n inference python==3.11`
+- `git clone https://github.com/hskhyl/CIBMTR-HCT-Prediction.git`
+- `make setup`
+- `python3 main.py`
