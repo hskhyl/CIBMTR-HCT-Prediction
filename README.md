@@ -2,6 +2,7 @@
 
 본 레포지토리는 Kaggle 제출 코드를 바탕으로 Python 프로젝트 형태로 재구성하였습니다. 원본 코드는 [여기](https://www.kaggle.com/code/hongseonggyun/xgbregressor-with-kaplanmeierfitter?scriptVersionId=223729865)에서 확인하실 수 있습니다.
 
+데이터 EDA 및 시각화 관련 사항은 `notebooks/02_EDA_data.ipynb` 에 저장되어 있습니다.
 ---
 
 # 1. Intro
